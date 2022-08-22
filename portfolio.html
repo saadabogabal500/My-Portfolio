@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- W3Schools Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <!-- Google Font Cairo  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Saad's Portfolio</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- Start Toggle -->
+        <label for="toggle">
+            <input type="checkbox" id="toggle" checked>
+            <div class="toggle">
+                <span class="top-line common"></span>
+                <span class="middle-line common"></span>
+                <span class="bottom-line common"></span>
+            </div>
+            <div class="main-nav">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/saadphoto.jpg" alt="saadphoto">
+                    </div>
+                    <h1>Saad AboGabal</h1>
+                    <p>Front End Developer</p>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="./home.html" ><i class="fa-solid fa-house-chimney"></i>Home</a>
+                            </li>
+                            <li><a href="./about-me.html"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+                            <li><a href="./resume.html"><i class="fa-solid fa-briefcase"></i>Resume</a></li>
+                            <li><a href="./portfolio.html" class="active"><i class="fa-solid fa-user"></i>Portfolio</a></li>
+                            <li><a href="./contact.html"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-footer">
+                    <span>&copy;</span>2022 All Right Reserved.
+                </div>
+            </div>
+        </label>
+        <!-- End Toggle -->
+        <!-- Start Panel Switcher -->
+        <div class="switcher">
+            <div class="panel-switcher">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="panel">
+                <h4 class="title">Template Style</h4>
+                <div class="t-color">
+                    <a class="switch-color light active">Light</a>
+                    <a class="switch-color dark">Dark</a>
+                </div>
+                <h4 class="title">Main Color</h4>
+                <div class="main-color">
+                    <a class="pick-color light-blue active-color"></a>
+                    <a class="pick-color blue "></a>
+                    <a class="pick-color yellow "></a>
+                    <a class="pick-color green "></a>
+                    <a class="pick-color violet"></a>
+                    <a class="pick-color orange "></a>
+                </div>
+                <h4 class="title">Nav Color</h4>
+                <div class="main-color nav-color">
+                    <a class="pick-color light-blue active-color"></a>
+                    <a class="pick-color blue "></a>
+                    <a class="pick-color yellow "></a>
+                </div>
+                <h4 class="title">Nav Position</h4>
+                <div class="nav-pos">
+                    <div class="left">Left</div>
+                    <div class="top">Top</div>
+                    <div class="bottom">Bottom</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Panel Switcher -->
+        <!-- Start Left Side -->
+        <aside class="left-side">
+            <!-- Start Header -->
+            <header class="main-header">
+                <div class="header-container">
+                    <img src="./imgs/saadphoto.jpg" alt="Saad's Photo">
+                    <nav>
+                        <ul>
+                            <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                            </li>
+                            <li><a href="./about-me.html"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+                            <li><a href="./resume.html"><i class="fa-solid fa-briefcase"></i>Resume</a>
+                            </li>
+                            <li><a href="./portfolio.html" class="active"><i class="fa-solid fa-user"></i>Portfolio</a></li>
+                            <li><a href="./contact.html"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- End Header -->
+        </aside>
+        <!-- End Left Side -->
+        <!-- Start Content Area  -->
+        <div class="content-area">
+            <div class="subpages">
+                <!-- Start Portfolio -->
+                <div class="portfolio">
+                    <h2 class="main-title">Portfolio</h2>
+                    <div class="container">
+                        <div class="filter">
+                            <ul class="shuffle">
+                                <li><a href="#" class="active">All</a></li>
+                                <li><a href="#">Detailed</a></li>
+                                <li><a href="#">Mockups</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="my-work">
+                            <div class="box">
+                                <a href="https://saadabogabal500.github.io/HTML-CSS_Template_3/" target="_blank"><img src="./imgs/my-work1.png"></a>
+                                <div class="caption">
+                                    <h4>Elzero Template</h4>
+                                    <p>Awesome Responsive Design</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <a href="https://saadabogabal500.github.io/HTML-CSS_Template_Two/" target="_blank"><img src="./imgs/my-work2.png"></a>
+                                <div class="caption">
+                                    <h4>Kasper Template</h4>
+                                    <p>HTML&CSS Responsive Design</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <a href="https://saadabogabal500.github.io/HTML-CSS_Templete_One/" target="_blank"><img src="./imgs/my-work3.png"></a>
+                                <div class="caption">
+                                    <h4>Leon Template</h4>
+                                    <p>HTML&CSS Responsive Design</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <a href="#"><img src="./imgs/my-work4.png" target="_blank"></a>
+                                <div class="caption">
+                                    <h4>Portfolio</h4>
+                                    <p>Responsive Portfolio Design</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <a href="#"><img src="./imgs/my-work5.png" target="_blank"></a>
+                                <div class="caption">
+                                    <h4>Resume</h4>
+                                    <p>Responsive Resume</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Portfolio -->
+            </div>
+        </div>
+        <!-- End Content Area  -->
+    </div>
+    <!-- End About Me  -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- W3Schools Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <!-- Google Font Cairo  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Saad's Portfolio</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- Start Toggle -->
+        <label for="toggle">
+            <input type="checkbox" id="toggle" checked>
+            <div class="toggle">
+                <span class="top-line common"></span>
+                <span class="middle-line common"></span>
+                <span class="bottom-line common"></span>
+            </div>
+            <div class="main-nav">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/saadphoto.jpg" alt="saadphoto">
+                    </div>
+                    <h1>Saad AboGabal</h1>
+                    <p>Front End Developer</p>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="./home.html" ><i class="fa-solid fa-house-chimney"></i>Home</a>
+                            </li>
+                            <li><a href="./about-me.html"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+                            <li><a href="./resume.html"><i class="fa-solid fa-briefcase"></i>Resume</a></li>
+                            <li><a href="./portfolio.html" class="active"><i class="fa-solid fa-user"></i>Portfolio</a></li>
+                            <li><a href="./contact.html"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-footer">
+                    <span>&copy;</span>2022 All Right Reserved.
+                </div>
+            </div>
+        </label>
+        <!-- End Toggle -->
+        <!-- Start Panel Switcher -->
+        <div class="switcher">
+            <div class="panel-switcher">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="panel">
+                <h4 class="title">Template Style</h4>
+                <div class="t-color">
+                    <a class="switch-color light active">Light</a>
+                    <a class="switch-color dark">Dark</a>
+                </div>
+                <h4 class="title">Main Color</h4>
+                <div class="main-color">
+                    <a class="pick-color light-blue active-color"></a>
+                    <a class="pick-color blue "></a>
+                    <a class="pick-color yellow "></a>
+                    <a class="pick-color green "></a>
+                    <a class="pick-color violet"></a>
+                    <a class="pick-color orange "></a>
+                </div>
+                <h4 class="title">Nav Color</h4>
+                <div class="main-color nav-color">
+                    <a class="pick-color light-blue active-color"></a>
+                    <a class="pick-color blue "></a>
+                    <a class="pick-color yellow "></a>
+                </div>
+                <h4 class="title">Nav Position</h4>
+                <div class="nav-pos">
+                    <div class="left">Left</div>
+                    <div class="top">Top</div>
+                    <div class="bottom">Bottom</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Panel Switcher -->
+        <!-- Start Left Side -->
+        <aside class="left-side">
+            <!-- Start Header -->
+            <header class="main-header">
+                <div class="header-container">
+                    <img src="./imgs/saadphoto.jpg" alt="Saad's Photo">
+                    <nav>
+                        <ul>
+                            <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                            </li>
+                            <li><a href="./about-me.html"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+                            <li><a href="./resume.html"><i class="fa-solid fa-briefcase"></i>Resume</a>
+                            </li>
+                            <li><a href="./portfolio.html"><i class="fa-solid fa-user"></i>Portfolio</a></li>
+                            <li><a href="./contact.html" class="active"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- End Header -->
+        </aside>
+        <!-- End Left Side -->
+        <!-- Start Content Area  -->
+        <div class="content-area">
+            <div class="subpages">
+                <!-- Start Contact Us -->
+                <div class="contact">
+                    <h2 class="main-title">Contact</h2>
+                    <div class="container">
+                        <div class="get-touch">
+                            <h3 class="contact-title">Get In Touch</h3>
+                            <p>I'll Be Grateful to you if you give me your opinion on my
+                                Portfolio or give me any advice to enhance my design or my code at the End thank you for your watch.
+                            </p>
+                            <ul class="data">
+                                <li><i class="fa-solid fa-location-dot"></i><h5>Kuwait - Farwaniya</h5></li>
+                                <li><i class="fa-regular fa-envelope"></i><h5>saadabogabal500@gmail.com</h5></li>
+                                <li><i class="fa-solid fa-phone"></i><h5>+96550603644 <br> +201147921883 WhatsApp</h5></li>
+                                <li><i class="fa-solid fa-circle-xmark"></i><h5>Freelance Not Available</h5></li>
+                            </ul>
+                        </div>
+                        <div class="form">
+                            <h3 class="contact-title">Contact Form</h3>
+                            <form action="#">
+                                <div class="text"><input type="text" name="username" placeholder="Full Name" required></div>
+                                <div class="email">
+                                    <input type="email" name="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="textarea">
+                                    <textarea name="message" placeholder="Message For Me"></textarea>
+                                </div>
+                                <input type="submit" value="Send Message">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Contact Us -->
+            </div>
+        </div>
+        <!-- End Content Area  -->
+    </div>
+    <!-- End About Me  -->
+    </div>
+
+</body>
+
+</html>
