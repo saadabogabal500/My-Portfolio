@@ -975,6 +975,7 @@ input[type="checkbox"]:checked~.toggle .common {
 /* Start Left Section */
 
 .resume .container .left-section {
+    overflow: hidden;
     grid-column: span 2;
     background-color: var(--resume-color);
     height: 100%;
