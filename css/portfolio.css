@@ -777,7 +777,9 @@ input[type="checkbox"]:checked~.toggle .common {
     display: flex;
     flex-wrap: wrap;
 }
-
+.about .container .info .content .phone>span {
+    color: var(--paragraph-color);
+}
 .about .container .info .content .phone>span:first-child {
     width: 100%;
 
@@ -1043,6 +1045,7 @@ input[type="checkbox"]:checked~.toggle .common {
 
 .resume .left-section .info .social li span {
     font-size: 14px;
+    color: white;
 }
 
 .resume .left-section .skills .prog-holder li {
