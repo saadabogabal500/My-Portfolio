@@ -192,7 +192,7 @@ a {
 
 /* Start Toggle main-nav */
 .page .toggle {
-    position: absolute;
+    position: fixed;
     background-color: var(--main-color);
     right: 16px;
     top: 20px;
@@ -717,6 +717,9 @@ input[type="checkbox"]:checked~.toggle .common {
     .about .container .data {
         flex-direction: column;
     }
+    .about .container .data > div{
+        flex: 1;
+    }
 }
 
 .about .container .summary {
@@ -751,6 +754,10 @@ input[type="checkbox"]:checked~.toggle .common {
 @media (max-width: 767px) {
     .about .container .info {
         display: flex;
+        flex-wrap: wrap;
+    }
+    .about .container .info > div {
+        flex: 1;
     }
 }
 
